@@ -1,0 +1,34 @@
+body{
+	background: url(pictures/backMain.jpg) no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+a{
+	font-size: 20px;
+	color: white;
+	padding: 40px;
+	text-align: center;
+}
+a:hover{
+	color:#0cf089;
+	}
+.logo{
+	font-size: 70px;
+	color:#0cf06b;
+	justify-content: center;
+	text-align: center;
+	padding: 150px;
+}
+
+.target{
+	font-size: 20px;
+	color:white;
+	justify-content: center;
+	text-align: left;
+	padding: 30px 30px 30px 200px;
+	margin: 100px 0 70px 0
+}
+div{
+	background-color: rgba(27, 26, 28, 0.4);
+}
+
