@@ -28,3 +28,13 @@ a:hover{
     border-radius: 10px;
     border: 3px solid #0cf089;
 }
+.discript{
+	background: white;
+	padding: 10px 10px 10px 10px;
+	margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+    border: 3px solid #0cf089;
+}
+div{
+	background-color: rgba(27, 26, 28, 0.4);
+}
