@@ -46,3 +46,8 @@ a:hover{
 div{
 	background-color: rgba(27, 26, 28, 0.4);
 }
+img:hover{
+	transform: scale(1.2);
+	padding: 5%;
+}
+
