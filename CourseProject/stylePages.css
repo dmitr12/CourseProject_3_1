@@ -12,13 +12,8 @@ body{
 }
 a{
 	font-size: 20px;
-	color: white;
 	padding: 40px;
 	text-align: center;
-}
-a:hover{
-	color:#0cf089;
-    background-color: rgba(27, 26, 28, 0.4);
 }
 .theory{
 	background: white;
@@ -50,4 +45,5 @@ img:hover{
 	transform: scale(1.2);
 	padding: 5%;
 }
+
 

@@ -13,16 +13,23 @@
 </head>
 <body>
 	<header> 
-		<div>
-        <p class="row head">
-            <a href="main.htm" class="col-md-2.4" style="font-size: 35px; align-content: center; color: #0cf089; text-decoration: none">Главная</a>
-            <a href="teor_vved.htm" class="col-md-2.4" style="text-decoration: none;">Теоретическое введение</a>
-        <a href="discript_ust.htm" class="col-md-2.4" style="text-decoration: none;">Описание установки</a>
-        <a href="" class="col-md-2.4" style="text-decoration: none;">Лаборатория онлайн</a>
-        <a href="" class="col-md-2.4" style="text-decoration: none;">Об авторе</a>
-        </p>
-        </div>
-        <p style="font-size: 35px; text-align: center; color: #f0670c">Описание прибора</p>
+		 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a href="main.htm" class="navbar-brand">Главная</a>
+            <div class="collapse navbar-collapse bg-dark" id="navbarNav">
+                <ul class="navbar-nav bg-dark">
+                    <li class="nav-item">
+                        <a href="teor_vved.htm" class="nav-link">Теоретическое введение</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="discript_ust.htm" class="nav-link">Описание установки</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Лаборатория онлайн</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <p style="font-size: 35px; text-align: center; color: #f0670c; margin-top: 5%;">Описание прибора</p>
         <div class="picture">
         <embed align="center" src="instal.swf" width="685px" height="495px" type="application/x-shockwave-flash"/>
         </div>
@@ -41,10 +48,9 @@
         </div>
     <div class="picture">
     <embed align="center" src="princip.swf" width="685px" height="495px" type="application/x-shockwave-flash"/>
-    </div>
-        <div>
-        <p style="color:white; font-size: 14px; padding:0 0 0 30px;">Дырда Дмитрий Геннадьевич ИСИТ 3-1</p>
-    </div>
+     <footer class="bg-dark text-light navbar-dark fixed-bottom">
+            Дырда Дмитрий Геннадьевич ИСИТ 3-1
+    </footer>
 	</header>
 </body>
 </html>
