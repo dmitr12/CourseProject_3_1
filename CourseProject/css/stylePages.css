@@ -1,0 +1,45 @@
+body{
+	background: url(../pictures/backMain.jpg) no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.head{
+	margin: 0 0 0 40px;
+}
+.about{
+	background: white;
+	margin: 20px;
+}
+a{
+	font-size: 20px;
+	padding: 40px;
+	text-align: center;
+}
+.theory{
+	background: white;
+	padding: 10px 150px 10px 150px;
+    color:#4c505e;
+    margin: 0 100px 30px 100px;
+    border-radius: 10px;
+    border: 3px solid #0cf089;
+}
+.discript{
+	background: white;
+	padding: 10px 10px 10px 10px;
+	margin: 30px 100px 30px 100px;
+    border-radius: 10px;
+    border: 3px solid #0cf089;
+}
+.picture{
+	background: white;
+	width: 700px;
+	padding: 0 10px 10 10px;
+	margin: 30px 300px 30px 300px;
+    border-radius: 10px;
+    border: 3px solid #0cf089;
+}
+div{
+	background-color: rgba(27, 26, 28, 0.4);
+}
+
+
